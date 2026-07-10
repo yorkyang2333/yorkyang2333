@@ -16,8 +16,7 @@
 <!-- DYNAMIC DAILY ANIME QUOTE CONTAINER WITH CYBER FRAME -->
 <table>
   <tr>
-    <td align="center" bgcolor="#0B0F19" style="padding: 18px 24px; border: 1px solid #1E293B; border-radius: 12px;">
-      <p style="margin-bottom: 10px;"><code>★ DAILY ANIME ORACLE // 今日の一言 ★</code></p>
+    <td align="center" bgcolor="#0B0F19" style="padding: 16px 20px; border: 1px solid #1E293B; border-radius: 12px;">
       <img src="https://readme-daily-quotes.vercel.app/api?theme=radical" alt="Daily Anime Quote" />
     </td>
   </tr>
