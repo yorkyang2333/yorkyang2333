@@ -28,7 +28,7 @@ The file was already open when Ema reached the desk. She did not touch it at fir
 > **PRISONER NO. 671 — YORKYANG2333**<br />
 > **STATUS: UNDER INVESTIGATION**
 
-“Um... Hiro-chan? Sherry-chan?” Ema kept her voice light. “It is okay to look at this, right? I mean, it was left open, but still...”
+“Um... Hiro-chan? Sherry-chan?” Ema kept her voice light. “Boku can look at this, right? It was left open, but still...”
 
 Hiro inspected the seal, the desk, and the empty corridor beyond it. “It has been placed here for us. Leaving a prisoner record unattended would be irresponsible otherwise.” She squared the page with the edge of the desk. “We will examine it properly.”
 
@@ -86,7 +86,7 @@ Hiro set it aside, carefully. “Different platforms. Different languages. Diffe
 
 “But there is a habit,” Sherry said, untroubled. “A visual novel is stranded in an aging runtime, an enhancement filter is stranded outside the player, an idea is stranded without an interface—and Prisoner 671 builds each one a way across. That is much more exciting than a paper clip.”
 
-Ema looked from the files to Hiro. “I think... I think Sherry-chan might be onto something. Not that it proves everything. But if someone made these things so they could reach people, that matters, doesn't it?”
+Ema looked from the files to Hiro. “Sherry-chan might be onto something. Boku cannot prove it yet. But if someone made these things so they could reach people, that matters, doesn't it?”
 
 Hiro was quiet for a moment. “It may matter. It is not evidence yet.” She tapped the last unopened section of the record. “Fortunately, we still have evidence.”
 
@@ -136,7 +136,7 @@ Hiro spoke first. “The evidence supports no single magic. It supports a method
 
 Ema shrank a little when the court turned to her. Then she saw the four files between them and stepped closer instead.
 
-“I do not know what to call it,” she admitted. “But all four cases started the same way. Something that should have been possible was not—so Prisoner 671 tried to make it possible. And if they are still making things, I hope they do not have to do it alone.”
+“Boku does not know what to call it,” she admitted. “But all four cases started the same way. Something that should have been possible was not—so Prisoner 671 tried to make it possible. And if they are still making things, Boku hopes they do not have to do it alone.”
 
 The owl studied the record. Then the seal came down.
 
