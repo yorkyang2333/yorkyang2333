@@ -18,13 +18,23 @@
 
 <br />
 
+<h2 align="center">PROFILE</h2>
+
 <img src="./assets/theme/prisoner-record.svg" width="100%" alt="" />
 
+<p align="center">A fan-made developer profile for yorkyang2333, covering AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software.</p>
+
 <br />
+
+<h2 align="center">TECH STACK</h2>
 
 <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="" />
 
+<p align="center">Python · Kotlin · JavaScript · TypeScript · Vue · Swift · Rust · C++ · Ren'Py</p>
+
 <br />
+
+<h2 align="center">PROJECTS</h2>
 
 <div align="center">
   <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="ClaudWecho" /></a>
@@ -34,7 +44,11 @@
   <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./assets/theme/case-004-campus-vision.svg" width="49%" alt="Multimodal Campus Vision" /></a>
 </div>
 
+<p align="center">Wearable media · visual-novel infrastructure · real-time anime enhancement · multimodal campus vision</p>
+
 <br />
+
+<h2 align="center">ACTIVITY</h2>
 
 <div align="center">
   <img src="./assets/generated/profile-details.svg" width="100%" alt="" />
@@ -46,7 +60,11 @@
   <img src="./assets/generated/most-commit-language.svg" width="49%" alt="" />
 </div>
 
+<p align="center">Public repository activity, language statistics, commit patterns, and productive hours.</p>
+
 <br />
+
+<h2 align="center">CONTACT</h2>
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="" />
 
