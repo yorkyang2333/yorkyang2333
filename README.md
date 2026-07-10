@@ -13,14 +13,8 @@
 
 <br/>
 
-<!-- DYNAMIC DAILY ANIME QUOTE CONTAINER WITH CYBER FRAME -->
-<table>
-  <tr>
-    <td align="center" bgcolor="#0B0F19" style="padding: 16px 20px; border: 1px solid #1E293B; border-radius: 12px;">
-      <img src="https://readme-daily-quotes.vercel.app/api?theme=radical" alt="Daily Anime Quote" />
-    </td>
-  </tr>
-</table>
+<!-- DYNAMIC DAILY ANIME QUOTE -->
+<img src="https://readme-daily-quotes.vercel.app/api?theme=radical" alt="Daily Anime Quote" />
 
 </div>
 
