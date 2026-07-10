@@ -23,16 +23,16 @@
 
 <img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for yorkyang2333" />
 
-The file was already open when Ema reached the desk.
+The file was already open when Ema reached the desk. She did not touch it at first. What if it belonged to someone? What if they came back and found her looking?
 
 > **PRISONER NO. 671 — YORKYANG2333**<br />
 > **STATUS: UNDER INVESTIGATION**
 
-“That's all?” Ema asked. “A number and a list of projects?”
+“Um... Hiro-chan? Sherry-chan?” Ema kept her voice light. “It is okay to look at this, right? I mean, it was left open, but still...”
 
-Hiro turned the page over. Nothing. Sherry, meanwhile, had found four evidence markers tucked beneath it and was arranging them in a neat little row.
+Hiro inspected the seal, the desk, and the empty corridor beyond it. “It has been placed here for us. Leaving a prisoner record unattended would be irresponsible otherwise.” She squared the page with the edge of the desk. “We will examine it properly.”
 
-“A music client. An old visual-novel engine. Anime enhancement. Campus vision,” she read. “My, our prisoner does wander.”
+“Oh! Four evidence markers!” Sherry was already on her knees, beaming as she gathered them into her arms. “A music client, an old visual-novel engine, anime enhancement, campus vision... What a wonderfully untidy mystery. Sherry is very interested.”
 
 The owl above them opened one eye.
 
@@ -43,22 +43,30 @@ The owl above them opened one eye.
 
 Nine marks lit up across the record: **Python**, **Kotlin**, **JavaScript**, **TypeScript**, **Vue**, **Swift**, **Rust**, **C++**, and **Ren'Py**.
 
-“Nine kinds of magic?” Ema counted again, just in case.
+“Nine kinds of magic?” Ema counted them twice. “That seems... like a lot. Sorry. It is probably not magic at all.”
 
-“Languages,” Hiro corrected her. “Tools. A long list proves nothing by itself.”
+“Languages,” Hiro said. “Tools. Do not turn an observation into a conclusion, Ema. That would not be correct.”
 
-“Then perhaps the interesting part,” Sherry said, “is why the same person keeps reaching for a different one.”
+Sherry hummed as she traced the marks with one finger. “Then the question is not what they are, but why Prisoner 671 keeps picking a new one. A person who collects clues is always more interesting than the clues themselves, isn't that right?”
 
-The marks offered no answer. They only pointed deeper into the record.
+Ema drew her hands together. “Maybe they do not know the answer yet either. We should not decide who they are just from a list.”
+
+Hiro gave a small nod. “That is correct. We need the work itself.”
 
 <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="Python, Kotlin, JavaScript, TypeScript, Vue, Swift, Rust, C++ and Ren'Py" />
 
 <h2 align="center">03 // THE INVESTIGATION</h2>
 <p align="center"><sub>SEARCH THE MANOR · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
 
-They split up.
+“We divide the files, record every claim, and compare our findings before reaching a verdict,” Hiro said. “That is the fairest way to proceed.”
 
-Ema followed the things that seemed made for someone: music carried onto a tiny watch, interfaces meant to feel close at hand. Hiro checked the machinery underneath—runtimes, native extensions, exports, and whether the claims survived contact with the code. Sherry chose the clues that looked least related and insisted that was precisely why they mattered.
+“A proper investigation!” Sherry clapped once. “Wonderful. I shall take the strangest ones. Please do not start without me if you discover a secret passage.”
+
+“There is no secret passage,” Hiro said.
+
+“Not yet.” Sherry smiled even wider.
+
+“Okay! Then Boku will take this one,” Ema said, a little too quickly. She took the file about music carried onto a tiny watch because someone, somewhere, had wanted it close enough to use. Hiro checked the machinery underneath—runtimes, native extensions, exports, and whether the claims survived contact with the code. Sherry took the least related clues and kept returning with another question before either of them had finished answering the last.
 
 <div align="center">
   <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="Case 001 — ClaudWecho" /></a>
@@ -68,19 +76,19 @@ Ema followed the things that seemed made for someone: music carried onto a tiny 
   <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./assets/theme/case-004-campus-vision.svg" width="49%" alt="Case 004 — Multimodal Campus Vision" /></a>
 </div>
 
-When they met again, Hiro placed the four files on the table.
+When they met again, Hiro had arranged the four files in a straight line. Sherry had added a fifth object: a bent paper clip she had found on the floor.
 
-“Different platforms. Different languages. Different problems,” she said. “There is no single technique connecting them.”
+“The paper clip is not evidence,” Hiro said.
 
-“There is a habit,” Sherry replied. “Something is stranded in the wrong place—a visual novel in an aging runtime, an enhancement filter outside the player, an idea without an interface—and Prisoner 671 tries to build it a way across.”
+“It could be!” Sherry replied brightly. “It has a mysterious bend.”
 
-Ema looked back at the first file. “So the magic is helping things reach people?”
+Hiro set it aside, carefully. “Different platforms. Different languages. Different problems. There is no single technique connecting them. We cannot invent a pattern because we want one.”
 
-“That is a feeling, not evidence,” Hiro said.
+“But there is a habit,” Sherry said, untroubled. “A visual novel is stranded in an aging runtime, an enhancement filter is stranded outside the player, an idea is stranded without an interface—and Prisoner 671 builds each one a way across. That is much more exciting than a paper clip.”
 
-She tapped the last unopened section of the record.
+Ema looked from the files to Hiro. “I think... I think Sherry-chan might be onto something. Not that it proves everything. But if someone made these things so they could reach people, that matters, doesn't it?”
 
-“Fortunately, we still have evidence.”
+Hiro was quiet for a moment. “It may matter. It is not evidence yet.” She tapped the last unopened section of the record. “Fortunately, we still have evidence.”
 
 <h2 align="center">04 // THE DAILY RECORD</h2>
 <p align="center"><sub>THE OWL WARDEN'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
@@ -99,11 +107,13 @@ At midnight in Shanghai, the ledger changed by itself.
 
 New activity appeared. Languages shifted. Another late hour was added to the record.
 
-“The **Profile Stats Synchronization** workflow,” Hiro said. “It refreshes the public evidence every day. No testimony required.”
+“The **Profile Stats Synchronization** workflow,” Hiro said. “It refreshes the public evidence every day. No testimony, no flattering interpretation—only a record. This is useful.”
 
-“But a ledger can only tell us what was done,” Ema said. “Not why.”
+“It is a very diligent diary,” Sherry said, smiling at the shifting lines. “A little shy, perhaps. It says everything except the interesting part.”
 
-For once, Hiro did not disagree.
+“But a ledger can only tell us what was done,” Ema said. She glanced at the other two before continuing. “Not why. And... if we decide why without asking, that would be lonely for them.”
+
+For once, Hiro did not correct her. “Then we will state only what the evidence supports.”
 
 The owl's wings struck the air. The screens went dark, leaving only the four case files illuminated.
 
@@ -114,13 +124,13 @@ The owl's wings struck the air. The screens went dark, leaving only the four cas
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="Verdict: collaboration admissible" />
 
-“The evidence supports no single magic,” Hiro began. “It supports a method: choose the tool the problem demands, verify the result, and leave the work open for inspection.”
+Hiro spoke first. “The evidence supports no single magic. It supports a method: choose the tool the problem demands, verify the result, and leave the work open for inspection. That is a conclusion we can defend.”
 
-“And a motive,” Sherry added. “Curiosity. Especially when the clue is strange enough to be useful.”
+“And a motive!” Sherry added before the echo had faded. “Curiosity. The good sort—the sort that sees a peculiar problem and follows it until it becomes useful. The dangerous sort is more fun, but that is not in the record today.”
 
-Ema hesitated when the court turned to her.
+Ema shrank a little when the court turned to her. Then she saw the four files between them and stepped closer instead.
 
-“I don't know what to call it,” she admitted. “But all four cases started the same way. Something that should have been possible wasn't—so Prisoner 671 tried to make it possible.”
+“I do not know what to call it,” she admitted. “But all four cases started the same way. Something that should have been possible was not—so Prisoner 671 tried to make it possible. And if they are still making things, I hope they do not have to do it alone.”
 
 The owl studied the record. Then the seal came down.
 
