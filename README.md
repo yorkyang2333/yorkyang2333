@@ -61,26 +61,26 @@
 
 <table>
   <tr>
-    <td align="center" width="33%" bgcolor="#0B0F19" style="border: 1px solid rgba(255, 117, 160, 0.35); border-radius: 12px; padding: 20px;">
-      <p style="margin-bottom: 12px;"><code>[ CORE_AI // 核心算法 ]</code></p>
+    <td align="center" width="33%" bgcolor="#0B0F19" style="border: 1px solid #1E293B; padding: 18px;">
+      <h4 style="color: #FF75A0; margin-bottom: 12px;">★ CORE // AI &amp; ALGORITHMS</h4>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=py,cpp,linux,docker&perline=4" alt="AI & Systems" />
       </a>
-      <p style="font-size: 12px; color: #94A3B8; margin-top: 12px;"><b>Python / C++ / Linux / Docker</b></p>
+      <p style="font-size: 12px; color: #94A3B8; margin-top: 10px;">Python / C++ / Linux / Docker</p>
     </td>
-    <td align="center" width="34%" bgcolor="#0B0F19" style="border: 1px solid rgba(0, 242, 254, 0.35); border-radius: 12px; padding: 20px;">
-      <p style="margin-bottom: 12px;"><code>[ SYNCHRONIZE // 前端界面 ]</code></p>
+    <td align="center" width="34%" bgcolor="#0B0F19" style="border: 1px solid #1E293B; padding: 18px;">
+      <h4 style="color: #00F2FE; margin-bottom: 12px;">★ SYNCHRONIZE // WEB &amp; FRONTEND</h4>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=ts,js,react,html,css&perline=5" alt="Frontend Arsenal" />
       </a>
-      <p style="font-size: 12px; color: #94A3B8; margin-top: 12px;"><b>TypeScript / React / Modern Web</b></p>
+      <p style="font-size: 12px; color: #94A3B8; margin-top: 10px;">TypeScript / React / Modern Web UI</p>
     </td>
-    <td align="center" width="33%" bgcolor="#0B0F19" style="border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 12px; padding: 20px;">
-      <p style="margin-bottom: 12px;"><code>[ INFRA // 開発工具 ]</code></p>
+    <td align="center" width="33%" bgcolor="#0B0F19" style="border: 1px solid #1E293B; padding: 18px;">
+      <h4 style="color: #A855F7; margin-bottom: 12px;">★ INFRA // TOOLS &amp; WORKFLOW</h4>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode&perline=4" alt="DevOps & Tools" />
       </a>
-      <p style="font-size: 12px; color: #94A3B8; margin-top: 12px;"><b>Node.js / Git / GitHub / VSCode</b></p>
+      <p style="font-size: 12px; color: #94A3B8; margin-top: 10px;">Node.js / Git / GitHub / VSCode</p>
     </td>
   </tr>
 </table>
