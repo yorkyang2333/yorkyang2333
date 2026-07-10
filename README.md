@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/official/gokucho.png" width="210" alt="Gokucho, the owl warden from Magical Girl Witch Trials" />
+  <img src="./assets/official/gokucho.png" width="210" alt="Gokucho, the warden from Magical Girl Witch Trials" />
   <br />
   <img src="./assets/theme/trial-title.svg" width="100%" alt="The Witch Trial of yorkyang2333 — Prisoner No. 671" />
   <br />
@@ -19,7 +19,7 @@
 <img src="./assets/theme/witness-testimonies.svg" width="100%" alt="The three testimonies: Ema for empathy, Hiro for rigor, and Sherry for curiosity" />
 
 <h2 align="center">01 // THE PRISON MANOR</h2>
-<p align="center"><sub>A WITCH CANDIDATE'S RECORD, KEPT BY THE OWL WARDEN</sub></p>
+<p align="center"><sub>A WITCH CANDIDATE'S RECORD, KEPT BY GOKUCHO</sub></p>
 
 <img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for yorkyang2333" />
 
@@ -34,9 +34,9 @@ Hiro inspected the seal, the desk, and the empty corridor beyond it. “It has b
 
 “Oh! Four evidence markers!” Sherry was already on her knees, beaming as she gathered them into her arms. “A music client, an old visual-novel engine, anime enhancement, campus vision... What a wonderfully untidy mystery. Sherry is very interested.”
 
-The owl above them opened one eye.
+Above them, Gokucho turned his head a precise ninety degrees. He called himself a cute owl. At the moment, he sounded more like a clerk whose shift had just begun.
 
-**“Determine the magic hidden in this record. The investigation begins now.”**
+**“Prisoner No. 671. We will now examine the record. Please do not alter the evidence. Additional incidents are not desired; they only increase the paperwork.”**
 
 <h2 align="center">02 // THE MAGIC WITHIN</h2>
 <p align="center"><sub>EVERY CANDIDATE HAS A HIDDEN MAGIC; EVERY MAKER HAS A CRAFT</sub></p>
@@ -55,10 +55,10 @@ Hiro gave a small nod. “That is correct. We need the work itself.”
 
 <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="Python, Kotlin, JavaScript, TypeScript, Vue, Swift, Rust, C++ and Ren'Py" />
 
-<h2 align="center">03 // THE INVESTIGATION</h2>
-<p align="center"><sub>SEARCH THE MANOR · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
+<h2 align="center">03 // THE SEARCH</h2>
+<p align="center"><sub>SEARCH THE RECORD · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
 
-“We divide the files, record every claim, and compare our findings before reaching a verdict,” Hiro said. “That is the fairest way to proceed.”
+“We divide the files, record every claim, and compare our findings before stating a conclusion,” Hiro said. “That is the fairest way to proceed.”
 
 “A proper investigation!” Sherry clapped once. “Wonderful. I shall take the strangest ones. Please do not start without me if you discover a secret passage.”
 
@@ -91,7 +91,7 @@ Ema looked from the files to Hiro. “Sherry-chan might be onto something. Boku 
 Hiro was quiet for a moment. “It may matter. It is not evidence yet.” She tapped the last unopened section of the record. “Fortunately, we still have evidence.”
 
 <h2 align="center">04 // THE DAILY RECORD</h2>
-<p align="center"><sub>THE OWL WARDEN'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
+<p align="center"><sub>GOKUCHO'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
 
 <div align="center">
   <img src="./assets/generated/profile-details.svg" width="100%" alt="yorkyang2333's GitHub profile activity overview" />
@@ -115,20 +115,26 @@ Hiro studied the new entries. “The record refreshes itself. No testimony, no f
 
 For once, Hiro did not correct her. “Then we will state only what the evidence supports.”
 
-The owl's wings struck the air. Not a command this time—a warning bell from somewhere below.
+Gokucho's wings struck the air. Not a command this time—a warning bell from somewhere below.
 
 Then came the scream.
 
 Another prisoner had been found dead in the records room. The four case files lay open around the body. The manor was sealed, the candidates were gathered, and the evidence they had just read was no longer a profile to be discussed. It was a possible motive.
 
-Only after the scene had been searched, the testimonies collected, and the clues compared would the owl call for a trial.
+The case now had a proper question: who had killed the prisoner, and did these files reveal a magic or a motive? The four project files were not four separate crimes. They were evidence inside one dossier.
 
-<h2 align="center">05 // THE VERDICT</h2>
+Gokucho appeared on the monitor, head still tilted, voice as flat as a form being read aloud.
+
+**“A murder has occurred. Please investigate the records room, collect your testimonies, and submit your conclusions. The witch trial will begin after the investigation. Please do not make this more complicated than necessary.”**
+
+Only after the scene had been searched, the testimonies collected, and the clues compared would Gokucho call for a trial.
+
+<h2 align="center">05 // THE WITCH TRIAL</h2>
 <p align="center"><sub>NO WITCH NEEDS TO BE FOUND HERE—ONLY WORK WORTH SHARING</sub></p>
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="Verdict: collaboration admissible" />
 
-The court assembled only after the murder investigation was complete.
+The court assembled only after the murder investigation was complete. The four repositories were exhibits, not defendants.
 
 Hiro spoke first. “The evidence supports no single magic. It supports a method: choose the tool the problem demands, verify the result, and leave the work open for inspection. That is a conclusion we can defend.”
 
@@ -136,9 +142,9 @@ Hiro spoke first. “The evidence supports no single magic. It supports a method
 
 Ema shrank a little when the court turned to her. Then she saw the four files between them and stepped closer instead.
 
-“Boku does not know what to call it,” she admitted. “But all four cases started the same way. Something that should have been possible was not—so Prisoner 671 tried to make it possible. And if they are still making things, Boku hopes they do not have to do it alone.”
+“Boku does not know what to call it,” she admitted. “But all four projects started the same way. Something that should have been possible was not—so Prisoner 671 tried to make it possible. And if they are still making things, Boku hopes they do not have to do it alone.”
 
-The owl studied the record. Then the seal came down.
+Gokucho studied the record. Then the seal came down.
 
 **Not a confession. An invitation.** Bring a case involving AI, creative software, visual-novel technology, anime media, or a strange cross-platform idea worth investigating.
 
