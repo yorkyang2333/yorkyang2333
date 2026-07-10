@@ -29,18 +29,39 @@
 
 ## 01. PROFILE / プロフィール
 
-```ascii
-   /\_/\  
-  ( o.o )   "Reality is just a poorly balanced game. Let's create a better world with code."
-   > ^ <
+<table>
+  <tr>
+    <td width="60%" valign="top">
+
+### 💫 Character Sheet / 玩家档案
+
+```yaml
+ID          : yorkyang2333
+Class       : Full-Stack & AI Alchemist
+Level       : Continuous Learner (∞)
+Guild       : Open Source Contributor
+Base        : ACG & Tech Exploration
 ```
 
-* **About Me** :: An AI & software engineering enthusiast with a deep passion for ACG culture.
-* **Skill Tree** :: Driven by curiosity — continuously exploring front-end, back-end, and AI algorithms.
-* **Co-op Mode** :: Always open to collaborating on creative open-source and tech projects.
-* **Contact Me** ::
-  * **Email**: `yangyork097@gmail.com`
-  * **QQ**: `1840216270`
+- **Core Focus** :: Passionate about **Artificial Intelligence**, Algorithms, and High-Performance Systems.
+- **Philosophy** :: Code should be elegant, well-crafted, and aesthetically inspired.
+- **Co-op Mode** :: Always open to teaming up on innovative, fun, and impactful projects.
+- **Contact Me** ::
+  - **Email**: `yangyork097@gmail.com`
+  - **QQ**: `1840216270`
+
+</td>
+    <td width="40%" align="center" valign="middle">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZpbzJzMHF1Zmt4YXNnZTNjZWU3ZGppNnZkNHk0bnozbzQzbGJwaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M1kAL2TjuowM0/giphy.gif" width="240" alt="Anime Coding Aesthetic GIF" />
+
+<br/>
+
+> *"Reality is just a game waiting to be modded with code."*
+
+</td>
+  </tr>
+</table>
 
 ---
 
