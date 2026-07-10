@@ -18,7 +18,8 @@
 
 <br />
 
-<h2 align="center">PROFILE</h2>
+<h2 align="center">01 // THE PRISON MANOR</h2>
+<p align="center"><sub>A WITCH CANDIDATE'S RECORD, KEPT BY GOKUCHO</sub></p>
 
 <img src="./assets/theme/prisoner-record.svg" width="100%" alt="" />
 
@@ -26,7 +27,8 @@
 
 <br />
 
-<h2 align="center">TECH STACK</h2>
+<h2 align="center">02 // THE MAGIC WITHIN</h2>
+<p align="center"><sub>EVERY CANDIDATE HAS A HIDDEN MAGIC; EVERY MAKER HAS A CRAFT</sub></p>
 
 <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="" />
 
@@ -34,7 +36,8 @@
 
 <br />
 
-<h2 align="center">PROJECTS</h2>
+<h2 align="center">03 // THE INVESTIGATION</h2>
+<p align="center"><sub>SEARCH THE MANOR · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
 
 <div align="center">
   <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="ClaudWecho" /></a>
@@ -48,7 +51,8 @@
 
 <br />
 
-<h2 align="center">ACTIVITY</h2>
+<h2 align="center">04 // THE DAILY RECORD</h2>
+<p align="center"><sub>THE OWL WARDEN'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
 
 <div align="center">
   <img src="./assets/generated/profile-details.svg" width="100%" alt="" />
@@ -64,7 +68,8 @@
 
 <br />
 
-<h2 align="center">CONTACT</h2>
+<h2 align="center">05 // THE VERDICT</h2>
+<p align="center"><sub>NO WITCH NEEDS TO BE FOUND HERE—ONLY WORK WORTH SHARING</sub></p>
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="" />
 
