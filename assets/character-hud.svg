@@ -121,8 +121,8 @@
       <text x="226" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#ff75a0">AGI &amp; Neural Systems</text>
 
       <rect x="420" y="0" width="190" height="46" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
-      <text x="436" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">FAVORITE ANIME</text>
-      <text x="436" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#00f2fe">Steins;Gate / EVA</text>
+      <text x="436" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">SPECIAL ATTRIBUTE</text>
+      <text x="436" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#00f2fe">S-Rank // Full-Stack AI</text>
     </g>
   </g>
 </svg>
