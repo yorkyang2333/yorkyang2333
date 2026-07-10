@@ -13,12 +13,12 @@
 
 <br/>
 
-<!-- ANIME PHILOSOPHY TERMINAL QUOTE -->
+<!-- DYNAMIC DAILY ANIME QUOTE CONTAINER WITH CYBER FRAME -->
 <table>
   <tr>
-    <td align="center" bgcolor="#0B0F19" style="padding: 16px; border: 1px solid #1E293B; border-radius: 12px;">
-      <code>&gt; SYSTEM_VOICE //「 過去を悔やむな。未来を恐れるな。現在を生きろ。」</code><br/>
-      <sub><b>"Do not regret the past. Do not fear the future. Live in the present." — Steins;Gate / Cyber Archive</b></sub>
+    <td align="center" bgcolor="#0B0F19" style="padding: 18px 24px; border: 1px solid #1E293B; border-radius: 12px;">
+      <p style="margin-bottom: 10px;"><code>★ DAILY ANIME ORACLE // 今日の一言 ★</code></p>
+      <img src="https://readme-daily-quotes.vercel.app/api?theme=radical" alt="Daily Anime Quote" />
     </td>
   </tr>
 </table>
