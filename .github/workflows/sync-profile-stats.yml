@@ -1,0 +1,58 @@
+name: Synchronize Profile Statistics
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: true
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate current profile statistics
+        uses: vn7n24fzkq/github-profile-summary-cards@974577f1823715ca047e9976548634816a3a0264 # release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          AUTO_PUSH: false
+
+      - name: Select the witch-trial statistics cards
+        run: |
+          mkdir -p assets/generated
+          cp profile-summary-card-output/radical/0-profile-details.svg assets/generated/profile-details.svg
+          cp profile-summary-card-output/radical/1-repos-per-language.svg assets/generated/repos-per-language.svg
+          cp profile-summary-card-output/radical/2-most-commit-language.svg assets/generated/most-commit-language.svg
+          cp profile-summary-card-output/radical/3-stats.svg assets/generated/stats.svg
+          cp profile-summary-card-output/radical/4-productive-time.svg assets/generated/productive-time.svg
+          # Keep the dossier identity aligned with the public GitHub handle.
+          sed -i 's/York Yang/yorkyang2333/g; s/YORK YANG/YORKYANG2333/g' assets/generated/*.svg
+
+      - name: Commit refreshed statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/*.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): refresh GitHub statistics"
+          git push
