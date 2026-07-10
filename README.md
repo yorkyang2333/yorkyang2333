@@ -80,6 +80,8 @@
   <a href="https://x.com/yorkyang2333"><img src="https://img.shields.io/badge/X-@yorkyang2333-0b0b10?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://www.instagram.com/yorkyang2333"><img src="https://img.shields.io/badge/Instagram-yorkyang2333-0b0b10?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://www.reddit.com/user/yorkyang2333"><img src="https://img.shields.io/badge/Reddit-u%2Fyorkyang2333-3f78a8?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit" /></a>
+  <img src="https://img.shields.io/badge/QQ-1840216270-0b0b10?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ 1840216270" />
+  <a href="mailto:yangyork097@gmail.com"><img src="https://img.shields.io/badge/Email-yangyork097%40gmail.com-0b0b10?style=for-the-badge&logo=gmail&logoColor=white" alt="Email yangyork097@gmail.com" /></a>
 </div>
 
 <br />
