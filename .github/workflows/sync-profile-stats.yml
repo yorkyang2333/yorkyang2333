@@ -2,13 +2,9 @@ name: Synchronize Profile Statistics
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    # 00:00 Asia/Shanghai = 16:00 UTC on the previous day.
+    - cron: "0 16 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/sync-profile-stats.yml"
 
 permissions:
   contents: write
