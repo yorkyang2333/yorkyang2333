@@ -18,26 +18,24 @@
 
 <img src="./assets/theme/witness-testimonies.svg" width="100%" alt="The three testimonies: Ema for empathy, Hiro for rigor, and Sherry for curiosity" />
 
-<h2 align="center">01 // DETENTION RECORD</h2>
-<p align="center"><sub>THE PRISON MANOR RECORDS A NEW WITCH CANDIDATE</sub></p>
+<h2 align="center">01 // THE PRISON MANOR</h2>
+<p align="center"><sub>A WITCH CANDIDATE'S RECORD, KEPT BY THE OWL WARDEN</sub></p>
 
 <img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for yorkyang2333" />
 
-In the prison manor, each girl is judged by the magic hidden inside her. In this dossier, every repository is judged the same way: by the evidence it leaves behind. My suspected “witch factors” are **AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software**—all developed under the three testimonies above: Ema's empathy, Hiro's rigor, and Sherry's dangerous curiosity.
+Like Ema's first morning in the prison manor, this profile begins with a record whose meaning is still being uncovered. It is a fan-made developer dossier for **yorkyang2333**: a place for **AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software**. Ema, Hiro, and Sherry are here as companions in spirit—not as evidence against anyone.
 
-<h2 align="center">02 // WITCH-FACTOR AWAKENING</h2>
-<p align="center"><sub>HARD PROBLEMS REVEAL WHICH MAGIC ANSWERS THE CALL</sub></p>
+<h2 align="center">02 // THE MAGIC WITHIN</h2>
+<p align="center"><sub>EVERY CANDIDATE HAS A HIDDEN MAGIC; EVERY MAKER HAS A CRAFT</sub></p>
 
-Strong pressure awakens magic in a witch candidate. A difficult engineering problem awakens a toolchain: Python for intelligence, Kotlin and Swift for native experiences, JavaScript and Vue for interfaces, Rust and C++ for performance, and Ren'Py or KiriKiri when the evidence leads back to a visual novel.
+In *Magical Girl Witch Trials*, each candidate carries a hidden magic and a history of her own. Here, the equivalent is craft: Python for intelligent systems; Kotlin and Swift for native experiences; JavaScript and Vue for interfaces; Rust and C++ for performance; and Ren'Py or KiriKiri when a project leads back to visual novels. The theme is inspiration, while the work is real.
 
 <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="Python, Kotlin, JavaScript, TypeScript, Vue, Swift, Rust, C++ and Ren'Py" />
 
 <h2 align="center">03 // THE INVESTIGATION</h2>
-<p align="center"><sub>SEARCH THE MANOR · QUESTION THE TESTIMONY · ENTER THE EVIDENCE</sub></p>
+<p align="center"><sub>SEARCH THE MANOR · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
 
-<a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743"></a>
-
-Before a verdict can be reached, the manor must be searched. These four repositories are the evidence currently admitted to court—each one connecting my developer profile to the investigation, deduction, and magical machinery of *Magical Girl Witch Trials*.
+Exploration comes before judgment. These four repositories are the threads worth following through this profile: a voice companion, a KiriKiri2 runtime, an anime-video enhancement project, and a multimodal campus-vision tool. Together they show the range of work behind the dossier—without asking the court to mistake a project for a confession.
 
 <div align="center">
   <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="Case 001 — ClaudWecho" /></a>
@@ -47,8 +45,8 @@ Before a verdict can be reached, the manor must be searched. These four reposito
   <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./assets/theme/case-004-campus-vision.svg" width="49%" alt="Case 004 — Multimodal Campus Vision" /></a>
 </div>
 
-<h2 align="center">04 // SURVEILLANCE RECORD</h2>
-<p align="center"><sub>THE PRISON MANOR NEVER STOPS OBSERVING</sub></p>
+<h2 align="center">04 // THE DAILY RECORD</h2>
+<p align="center"><sub>THE OWL WARDEN'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
 
 <div align="center">
   <img src="./assets/generated/profile-details.svg" width="100%" alt="yorkyang2333's GitHub profile activity overview" />
@@ -60,10 +58,10 @@ Before a verdict can be reached, the manor must be searched. These four reposito
   <img src="./assets/generated/most-commit-language.svg" width="49%" alt="yorkyang2333's most committed languages" />
 </div>
 
-These records are updated in real time by the repository's **Profile Stats Synchronization** workflow. No testimony is accepted without a trace; no public contribution escapes the archive.
+The ledger is refreshed every day at midnight in Shanghai time by the repository's **Profile Stats Synchronization** workflow. It is simply a living snapshot of public work: activity, languages, repositories, and the hours in which ideas most often become code.
 
-<h2 align="center">05 // THE WITCH TRIAL</h2>
-<p align="center"><sub>ALL EVIDENCE HAS BEEN HEARD — THE COURT MAY NOW DELIBERATE</sub></p>
+<h2 align="center">05 // THE VERDICT</h2>
+<p align="center"><sub>NO WITCH NEEDS TO BE FOUND HERE—ONLY WORK WORTH SHARING</sub></p>
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="Verdict: collaboration admissible" />
 
@@ -77,12 +75,12 @@ These records are updated in real time by the repository's **Profile Stats Synch
 <br />
 
 <div align="center">
-  <i>The investigation continues. The verdict belongs to the code.</i>
+  <i>The manor remains mysterious. The work remains open.</i>
   <br /><br />
   <sub>
     This is an unofficial, fan-made profile theme with no affiliation to the rights holders.<br />
     <i>Magical Girl Witch Trials</i>, its characters, and game artwork belong to their respective rights holders.<br />
-    Character material references the <a href="https://manosaba.com/">official game website</a>; courtroom imagery comes from <a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743">Nintendo's official feature</a>.<br />
+    Character material references the <a href="https://manosaba.com/">official game website</a>.<br />
     © 2024 Re,AER LLC. / Acacia.
   </sub>
 </div>
