@@ -35,7 +35,7 @@ Strong pressure awakens magic in a witch candidate. A difficult engineering prob
 <h2 align="center">03 // THE INVESTIGATION</h2>
 <p align="center"><sub>SEARCH THE MANOR · QUESTION THE TESTIMONY · ENTER THE EVIDENCE</sub></p>
 
-<a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743"><img src="./assets/official/witch-trial-court.jpg" width="100%" alt="The official witch trial courtroom" /></a>
+<a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743"></a>
 
 Before a verdict can be reached, the manor must be searched. These four repositories are the evidence currently admitted to court—each one connecting my developer profile to the investigation, deduction, and magical machinery of *Magical Girl Witch Trials*.
 
@@ -60,7 +60,7 @@ Before a verdict can be reached, the manor must be searched. These four reposito
   <img src="./assets/generated/most-commit-language.svg" width="49%" alt="yorkyang2333's most committed languages" />
 </div>
 
-These records are updated in real time by the repository's **Profile Stats Synchronization** workflow.No testimony is accepted without a trace; no public contribution escapes the archive.
+These records are updated in real time by the repository's **Profile Stats Synchronization** workflow. No testimony is accepted without a trace; no public contribution escapes the archive.
 
 <h2 align="center">05 // THE WITCH TRIAL</h2>
 <p align="center"><sub>ALL EVIDENCE HAS BEEN HEARD — THE COURT MAY NOW DELIBERATE</sub></p>
