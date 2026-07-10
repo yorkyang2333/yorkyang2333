@@ -33,7 +33,7 @@
   <tr>
     <td width="60%" valign="top">
 
-### 💫 Character Sheet / 玩家档案
+### 💫 Character Sheet
 
 ```yaml
 ID          : yorkyang2333
