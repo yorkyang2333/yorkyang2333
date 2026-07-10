@@ -115,14 +115,20 @@ Hiro studied the new entries. “The record refreshes itself. No testimony, no f
 
 For once, Hiro did not correct her. “Then we will state only what the evidence supports.”
 
-The owl's wings struck the air. The screens went dark, leaving only the four case files illuminated.
+The owl's wings struck the air. Not a command this time—a warning bell from somewhere below.
 
-**“Investigation concluded. All candidates will report to the court.”**
+Then came the scream.
+
+Another prisoner had been found dead in the records room. The four case files lay open around the body. The manor was sealed, the candidates were gathered, and the evidence they had just read was no longer a profile to be discussed. It was a possible motive.
+
+Only after the scene had been searched, the testimonies collected, and the clues compared would the owl call for a trial.
 
 <h2 align="center">05 // THE VERDICT</h2>
 <p align="center"><sub>NO WITCH NEEDS TO BE FOUND HERE—ONLY WORK WORTH SHARING</sub></p>
 
 <img src="./assets/theme/final-verdict.svg" width="100%" alt="Verdict: collaboration admissible" />
+
+The court assembled only after the murder investigation was complete.
 
 Hiro spoke first. “The evidence supports no single magic. It supports a method: choose the tool the problem demands, verify the result, and leave the work open for inspection. That is a conclusion we can defend.”
 
