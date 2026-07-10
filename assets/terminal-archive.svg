@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 255" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255, 117, 160, 0.15)" />
+      <stop offset="50%" stop-color="rgba(0, 242, 254, 0.08)" />
+      <stop offset="100%" stop-color="rgba(168, 85, 247, 0.12)" />
+    </linearGradient>
+
+    <!-- Subtle Grid -->
+    <pattern id="term-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255, 255, 255, 0.025)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Main Terminal Card Frame -->
+  <rect width="1000" height="255" rx="12" fill="url(#term-bg)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="1000" height="255" rx="12" fill="url(#term-grid)" />
+
+  <!-- Top Cyber Title Bar -->
+  <rect x="0" y="0" width="1000" height="36" rx="12" fill="url(#header-grad)" />
+  <line x1="0" y1="36" x2="1000" y2="36" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Window Control Dots -->
+  <circle cx="24" cy="18" r="5.5" fill="#ff75a0" />
+  <circle cx="42" cy="18" r="5.5" fill="#00f2fe" />
+  <circle cx="60" cy="18" r="5.5" fill="#a855f7" />
+
+  <!-- Terminal Title -->
+  <text x="85" y="22" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" font-weight="700" fill="#e2e8f0">
+    SYSTEM_TERMINAL // bash — sanctuary@yorkyang2333 — 80x24
+  </text>
+
+  <!-- Right Japanese Archive Tag -->
+  <text x="975" y="22" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700" fill="#00f2fe" text-anchor="end">
+    「 システム設定・個人檔案アーカイブ 」
+  </text>
+
+  <!-- ROW 1: Core Research Focus -->
+  <g transform="translate(24, 54)">
+    <rect x="0" y="0" width="952" height="54" rx="8" fill="rgba(255, 255, 255, 0.025)" stroke="rgba(0, 242, 254, 0.2)" stroke-width="1" />
+    
+    <!-- Left Indicator Strip -->
+    <rect x="0" y="0" width="4" height="54" rx="2" fill="#00f2fe" />
+
+    <!-- Command Prompt -->
+    <text x="18" y="22" font-family="'JetBrains Mono', monospace" font-size="13">
+      <tspan font-weight="700" fill="#00f2fe">sanctuary@yorkyang2333:~$ </tspan>
+      <tspan font-weight="600" fill="#ffffff">cat /etc/core_focus.conf</tspan>
+    </text>
+
+    <!-- Japanese Sublabel / Description -->
+    <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      <tspan font-family="'Hiragino Kaku Gothic ProN', sans-serif" font-weight="600" fill="#00f2fe">【研究焦点】 </tspan>
+      <tspan fill="#cbd5e1">Deep Learning, Artificial General Intelligence &amp; High-Performance Distributed Systems</tspan>
+    </text>
+
+    <!-- Status Badge -->
+    <rect x="850" y="14" width="84" height="26" rx="6" fill="rgba(0, 242, 254, 0.12)" stroke="#00f2fe" stroke-width="1" />
+    <text x="892" y="31" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00f2fe" text-anchor="middle">● ONLINE</text>
+  </g>
+
+  <!-- ROW 2: Anime Favorites -->
+  <g transform="translate(24, 118)">
+    <rect x="0" y="0" width="952" height="54" rx="8" fill="rgba(255, 255, 255, 0.025)" stroke="rgba(255, 117, 160, 0.2)" stroke-width="1" />
+    
+    <!-- Left Indicator Strip -->
+    <rect x="0" y="0" width="4" height="54" rx="2" fill="#ff75a0" />
+
+    <!-- Command Prompt -->
+    <text x="18" y="22" font-family="'JetBrains Mono', monospace" font-size="13">
+      <tspan font-weight="700" fill="#ff75a0">sanctuary@yorkyang2333:~$ </tspan>
+      <tspan font-weight="600" fill="#ffffff">cat /etc/anime_favorites.log</tspan>
+    </text>
+
+    <!-- Japanese Sublabel / Description -->
+    <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      <tspan font-family="'Hiragino Kaku Gothic ProN', sans-serif" font-weight="600" fill="#ff75a0">【最愛アニメ】 </tspan>
+      <tspan fill="#cbd5e1">Steins;Gate, Neon Genesis Evangelion, Frieren, Cyberpunk: Edgerunners, Ghost in the Shell</tspan>
+    </text>
+
+    <!-- Status Badge -->
+    <rect x="850" y="14" width="84" height="26" rx="6" fill="rgba(255, 117, 160, 0.15)" stroke="#ff75a0" stroke-width="1" />
+    <text x="892" y="31" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ff75a0" text-anchor="middle">SYNC 400%</text>
+  </g>
+
+  <!-- ROW 3: Contact Portal -->
+  <g transform="translate(24, 182)">
+    <rect x="0" y="0" width="952" height="54" rx="8" fill="rgba(255, 255, 255, 0.025)" stroke="rgba(168, 85, 247, 0.25)" stroke-width="1" />
+    
+    <!-- Left Indicator Strip -->
+    <rect x="0" y="0" width="4" height="54" rx="2" fill="#a855f7" />
+
+    <!-- Command Prompt -->
+    <text x="18" y="22" font-family="'JetBrains Mono', monospace" font-size="13">
+      <tspan font-weight="700" fill="#a855f7">sanctuary@yorkyang2333:~$ </tspan>
+      <tspan font-weight="600" fill="#ffffff">mail -s "CO-OP INVITATION" yorkyang2333</tspan>
+    </text>
+
+    <!-- Japanese Sublabel / Description -->
+    <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      <tspan font-family="'Hiragino Kaku Gothic ProN', sans-serif" font-weight="600" fill="#a855f7">【通信ポータル】 </tspan>
+      <tspan font-weight="600" fill="#f8fafc">Email: yangyork097@gmail.com </tspan>
+      <tspan fill="#64748b"> // </tspan>
+      <tspan font-weight="600" fill="#f8fafc">QQ Portal: 1840216270</tspan>
+    </text>
+
+    <!-- Status Badge -->
+    <rect x="850" y="14" width="84" height="26" rx="6" fill="rgba(168, 85, 247, 0.15)" stroke="#a855f7" stroke-width="1" />
+    <text x="892" y="31" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#a855f7" text-anchor="middle">● READY</text>
+  </g>
+</svg>
