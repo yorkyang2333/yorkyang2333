@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <linearGradient id="bar-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff75a0" />
+      <stop offset="100%" stop-color="#ff9eb5" />
+    </linearGradient>
+
+    <linearGradient id="bar-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="bar-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <pattern id="grid-subtle" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Outer Cyber Card -->
+  <rect width="1000" height="360" rx="14" fill="url(#card-bg)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="1000" height="360" rx="14" fill="url(#grid-subtle)" />
+
+  <!-- Corner Decorative Accents -->
+  <path d="M 0 24 L 24 0" stroke="#ff75a0" stroke-width="2" fill="none" />
+  <path d="M 976 0 L 1000 24" stroke="#00f2fe" stroke-width="2" fill="none" />
+
+  <!-- Left Column: Character Identification & Galgame Avatar Frame -->
+  <g transform="translate(40, 35)">
+    <!-- Cyber Frame Box -->
+    <rect x="0" y="0" width="260" height="290" rx="10" fill="rgba(255, 117, 160, 0.04)" stroke="rgba(255, 117, 160, 0.3)" stroke-width="1.5" />
+    
+    <!-- Top Header inside Frame -->
+    <rect x="12" y="12" width="236" height="26" rx="4" fill="rgba(255, 117, 160, 0.15)" />
+    <text x="130" y="29" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ff75a0" text-anchor="middle">
+      CHARACTER // ID: YORKYANG
+    </text>
+
+    <!-- Stylized Geometric Mecha/Sakura Emblem Center -->
+    <circle cx="130" cy="120" r="54" fill="none" stroke="rgba(0, 242, 254, 0.3)" stroke-width="1.5" stroke-dasharray="6 4" />
+    <circle cx="130" cy="120" r="42" fill="rgba(255, 117, 160, 0.1)" stroke="#ff75a0" stroke-width="1.5" />
+    <!-- Inner Kanji Emblem -->
+    <text x="130" y="128" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">極</text>
+
+    <!-- Tagline below Emblem -->
+    <text x="130" y="200" font-family="'Hiragino Kaku Gothic ProN', sans-serif" font-size="15" font-weight="700" fill="#e2e8f0" text-anchor="middle">
+      ヨーク・ヤン
+    </text>
+    <text x="130" y="222" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8" text-anchor="middle">
+      AI &amp; FULL-STACK ALCHEMIST
+    </text>
+
+    <!-- Cyber Status Badges -->
+    <rect x="25" y="242" width="95" height="24" rx="4" fill="rgba(0, 242, 254, 0.1)" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1" />
+    <text x="72" y="258" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#00f2fe" text-anchor="middle">AT-FIELD: ON</text>
+
+    <rect x="140" y="242" width="95" height="24" rx="4" fill="rgba(255, 117, 160, 0.1)" stroke="rgba(255, 117, 160, 0.4)" stroke-width="1" />
+    <text x="187" y="258" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#ff75a0" text-anchor="middle">SYNC: 400%</text>
+  </g>
+
+  <!-- Right Column: Visual Novel RPG Parameter Matrix -->
+  <g transform="translate(340, 45)">
+    <!-- Header Title -->
+    <text x="0" y="10" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#00f2fe" letter-spacing="2">
+      // STATUS MATRIX &amp; SKILL SYNCHRONIZATION
+    </text>
+    <line x1="0" y1="24" x2="610" y2="24" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+    <!-- Stat Bar 1: Artificial Intelligence & Deep Learning -->
+    <g transform="translate(0, 48)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">
+        AI &amp; Deep Learning Systems
+      </text>
+      <text x="610" y="0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#ff75a0" text-anchor="end">
+        LV.99 // MASTER
+      </text>
+      <rect x="0" y="10" width="610" height="8" rx="4" fill="rgba(255, 255, 255, 0.06)" />
+      <rect x="0" y="10" width="580" height="8" rx="4" fill="url(#bar-pink)" />
+    </g>
+
+    <!-- Stat Bar 2: Full-Stack Web & System Architecture -->
+    <g transform="translate(0, 108)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">
+        Full-Stack &amp; High-Performance Architecture
+      </text>
+      <text x="610" y="0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#00f2fe" text-anchor="end">
+        LV.95 // EXPERT
+      </text>
+      <rect x="0" y="10" width="610" height="8" rx="4" fill="rgba(255, 255, 255, 0.06)" />
+      <rect x="0" y="10" width="550" height="8" rx="4" fill="url(#bar-cyan)" />
+    </g>
+
+    <!-- Stat Bar 3: ACG & Otaku Culture Resonance -->
+    <g transform="translate(0, 168)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">
+        ACG / Cyberpunk Aesthetic &amp; Worldbuilding
+      </text>
+      <text x="610" y="0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#ec4899" text-anchor="end">
+        LV.MAX // AWAKENED
+      </text>
+      <rect x="0" y="10" width="610" height="8" rx="4" fill="rgba(255, 255, 255, 0.06)" />
+      <rect x="0" y="10" width="610" height="8" rx="4" fill="url(#bar-purple)" />
+    </g>
+
+    <!-- Bottom Info Tags Grid -->
+    <g transform="translate(0, 224)">
+      <rect x="0" y="0" width="190" height="46" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+      <text x="16" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">GUILD / FACTION</text>
+      <text x="16" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Open Source Alliance</text>
+
+      <rect x="210" y="0" width="190" height="46" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+      <text x="226" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">CURRENT QUEST</text>
+      <text x="226" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#ff75a0">AGI &amp; Neural Systems</text>
+
+      <rect x="420" y="0" width="190" height="46" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+      <text x="436" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">FAVORITE ANIME</text>
+      <text x="436" y="35" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#00f2fe">Steins;Gate / EVA</text>
+    </g>
+  </g>
+</svg>
