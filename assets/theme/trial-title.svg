@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">The Witch Trial of York Yang</title>
+  <desc id="desc">A gothic black, crimson, pink and blue title card for a developer dossier.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#05060a"/><stop offset=".5" stop-color="#1a0a11"/><stop offset="1" stop-color="#07121d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e66f91"/><stop offset=".5" stop-color="#8d3048"/><stop offset="1" stop-color="#6f9bc0"/>
+    </linearGradient>
+    <pattern id="glass" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="44" height="44" fill="none" stroke="#d7c8cf" stroke-opacity=".05"/>
+      <rect x="11" y="11" width="22" height="22" fill="#c34665" fill-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="250" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="250" rx="14" fill="url(#glass)"/>
+  <rect x="8" y="8" width="1184" height="234" rx="10" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="210" rx="7" fill="none" stroke="#eadde2" stroke-opacity=".2"/>
+  <g fill="none" stroke="#eadde2" stroke-opacity=".18">
+    <path d="M45 59h280l28 18h82M765 77h82l28-18h280"/>
+    <path d="M45 191h280l28-18h82M765 173h82l28 18h280"/>
+  </g>
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="600" y="52" fill="#cbb8c0" font-size="14" letter-spacing="7">MAGICAL GIRL WITCH TRIALS</text>
+    <text x="600" y="92" fill="#e991a8" font-size="18" letter-spacing="9">THE WITCH TRIAL OF</text>
+    <text x="600" y="157" fill="#fff8fb" font-size="58" font-weight="700" letter-spacing="14">YORK YANG</text>
+    <text x="600" y="203" fill="#9eb4c7" font-size="14" letter-spacing="5">PRISONER NO. 671 // DEVELOPER DOSSIER // VERDICT PENDING</text>
+  </g>
+  <g transform="translate(444 222)">
+    <g fill="#e66f91"><path d="m0-4 4 4-4 4-4-4Z"/><path d="m26-4 4 4-4 4-4-4Z"/><path d="m52-4 4 4-4 4-4-4Z"/><path d="m78-4 4 4-4 4-4-4Z"/><path d="m104-4 4 4-4 4-4-4Z"/></g>
+    <g fill="#eadde2"><path d="m130-4 4 4-4 4-4-4Z"/><path d="m156-4 4 4-4 4-4-4Z"/><path d="m182-4 4 4-4 4-4-4Z"/></g>
+    <g fill="#6f9bc0"><path d="m208-4 4 4-4 4-4-4Z"/><path d="m234-4 4 4-4 4-4-4Z"/><path d="m260-4 4 4-4 4-4-4Z"/><path d="m286-4 4 4-4 4-4-4Z"/><path d="m312-4 4 4-4 4-4-4Z"/></g>
+  </g>
+</svg>

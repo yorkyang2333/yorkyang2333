@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./assets/theme/witch-trial-header.svg" width="100%" alt="York Yang — Magical Girl Witch Trials developer profile" />
+  <img src="./assets/official/gokucho.png" width="210" alt="Gokucho, the owl warden from Magical Girl Witch Trials" />
+  <br />
+  <img src="./assets/theme/trial-title.svg" width="100%" alt="The Witch Trial of York Yang — Prisoner No. 671" />
+  <br />
+  <sub>“A witch trial will now commence.”</sub>
 </div>
 
 <br />
@@ -10,79 +14,70 @@
   <a href="https://manosaba.com/" title="Prisoner No. 667 — Sherry Tachibana"><img src="./assets/characters/sherry-tachibana.webp" width="32%" alt="Sherry Tachibana" /></a>
 </div>
 
-<div align="center">
-  <sub><b>NO. 658 — EMA SAKURABA</b> &nbsp;✦&nbsp; <b>NO. 659 — HIRO NIKAIDO</b> &nbsp;✦&nbsp; <b>NO. 667 — SHERRY TACHIBANA</b></sub>
-</div>
-
-## 01 // PRISONER RECORD
-
-> **“There is a girl among you who has become a witch.”**<br />
-> Thirteen candidates. One isolated prison manor. Every claim is evidence—and every contradiction can become a verdict.
-
-**Prisoner No. 671: York Yang**<br />
-AI investigator, cross-platform builder, and visual-novel enthusiast based in Shanghai.
-
-- 🔮 I explore **AI systems**, creative tools, and multimodal experiences.
-- 🕯️ I build across **mobile, desktop, web, and visual-novel engines**.
-- 🔍 I am especially interested in **anime video technology**, polished media apps, and unusual software experiments.
-- ⚖️ I am open to collaboration when a case is interesting enough to put on trial.
-
-## 02 // WITCH FACTOR ANALYSIS
-
-<div align="center">
-  <img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="Python, Kotlin, JavaScript, TypeScript, Vue, Swift, Rust, C++ and Ren'Py" />
-  <br />
-  <sub>Python · Kotlin · JavaScript · TypeScript · Vue · Swift · Rust · C++ · Ren'Py</sub>
-</div>
-
 <br />
+
+<img src="./assets/theme/witness-testimonies.svg" width="100%" alt="The three testimonies: Ema for empathy, Hiro for rigor, and Sherry for curiosity" />
+
+<div align="center">
+  <img src="./assets/ornaments/butterfly.webp" width="72" alt="Crimson butterfly ornament" />
+</div>
+
+<h2 align="center">01 // DETENTION RECORD</h2>
+<p align="center"><sub>THE PRISON MANOR RECORDS A NEW WITCH CANDIDATE</sub></p>
+
+<img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for York Yang" />
+
+In the prison manor, each girl is judged by the magic hidden inside her. In this dossier, every repository is judged the same way: by the evidence it leaves behind. My suspected “witch factors” are **AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software**—all developed under the three testimonies above: Ema's empathy, Hiro's rigor, and Sherry's dangerous curiosity.
+
+<div align="center">
+  <img src="./assets/ornaments/book.webp" width="76" alt="Gothic book ornament" />
+</div>
+
+<h2 align="center">02 // WITCH-FACTOR AWAKENING</h2>
+<p align="center"><sub>HARD PROBLEMS REVEAL WHICH MAGIC ANSWERS THE CALL</sub></p>
+
+Strong pressure awakens magic in a witch candidate. A difficult engineering problem awakens a toolchain: Python for intelligence, Kotlin and Swift for native experiences, JavaScript and Vue for interfaces, Rust and C++ for performance, and Ren'Py or KiriKiri when the evidence leads back to a visual novel.
+
+<img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="Python, Kotlin, JavaScript, TypeScript, Vue, Swift, Rust, C++ and Ren'Py" />
+
+<div align="center">
+  <img src="./assets/ornaments/scales.webp" width="82" alt="Witch trial scales" />
+</div>
+
+<h2 align="center">03 // THE INVESTIGATION</h2>
+<p align="center"><sub>SEARCH THE MANOR · QUESTION THE TESTIMONY · ENTER THE EVIDENCE</sub></p>
+
+<a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743"><img src="./assets/official/witch-trial-court.jpg" width="100%" alt="The official witch trial courtroom" /></a>
+
+Before a verdict can be reached, the manor must be searched. These four repositories are the evidence currently admitted to court—each one connecting my developer profile to the investigation, deduction, and magical machinery of *Magical Girl Witch Trials*.
+
+<div align="center">
+  <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="Case 001 — ClaudWecho" /></a>
+  <a href="https://github.com/yorkyang2333/AetherKiri"><img src="./assets/theme/case-002-aetherkiri.svg" width="49%" alt="Case 002 — AetherKiri" /></a>
+  <br />
+  <a href="https://github.com/yorkyang2333/iina-anime4k"><img src="./assets/theme/case-003-iina-anime4k.svg" width="49%" alt="Case 003 — iina-anime4k" /></a>
+  <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./assets/theme/case-004-campus-vision.svg" width="49%" alt="Case 004 — Multimodal Campus Vision" /></a>
+</div>
+
+<div align="center">
+  <img src="./assets/ornaments/witch-mark.webp" width="76" alt="Witch mark ornament" />
+</div>
+
+<h2 align="center">04 // SURVEILLANCE RECORD</h2>
+<p align="center"><sub>THE PRISON MANOR NEVER STOPS OBSERVING</sub></p>
 
 <div align="center">
   <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yorkyang2333&theme=radical" alt="York Yang's GitHub statistics" />
+  <br />
+  <img src="https://raw.githubusercontent.com/yorkyang2333/yorkyang2333/output/witch-trial-snake.svg" width="100%" alt="Daily witch-trial contribution surveillance record" />
 </div>
 
-## 03 // EVIDENCE ARCHIVE
+The moving record is regenerated every day by the repository's **Witch Trial Contribution Record** workflow. No testimony is accepted without a trace; no contribution escapes the archive.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>CASE 001 — ClaudWecho</h3>
-      <p>A lightweight music client crafted for Android smartwatches.</p>
-      <p><a href="https://github.com/yorkyang2333/ClaudWecho"><b>Examine the evidence →</b></a></p>
-      <code>Kotlin</code> <code>Wearables</code> <code>Media</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>CASE 002 — iina-anime4k</h3>
-      <p>An Anime4K enhancement plugin for the IINA media player.</p>
-      <p><a href="https://github.com/yorkyang2333/iina-anime4k"><b>Examine the evidence →</b></a></p>
-      <code>JavaScript</code> <code>Anime4K</code> <code>macOS</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>CASE 003 — Multimodal Campus Vision</h3>
-      <p>A web interface for multimodal-AI research into campus parking perception and optimization.</p>
-      <p><a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><b>Examine the evidence →</b></a></p>
-      <code>Vue</code> <code>Multimodal AI</code> <code>Research</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>CASE 004 — Visual Novel Lab</h3>
-      <p>Experiments with Ren'Py, KiriKiri, WebGAL, and the tools behind interactive stories.</p>
-      <p><a href="https://github.com/yorkyang2333/ddlc-renpy8"><b>Open the lab →</b></a> · <a href="https://github.com/yorkyang2333/webgal-manosaba-terre-EM"><b>Witch Trial editor →</b></a></p>
-      <code>Ren'Py</code> <code>WebGAL</code> <code>Visual Novels</code>
-    </td>
-  </tr>
-</table>
+<h2 align="center">05 // THE WITCH TRIAL</h2>
+<p align="center"><sub>ALL EVIDENCE HAS BEEN HEARD — THE COURT MAY NOW DELIBERATE</sub></p>
 
-## 04 // THE THREE TESTIMONIES
-
-| Candidate | Public record | What she represents here |
-|:--|:--|:--|
-| **Ema Sakuraba · No. 658** | Warm, positive, and terrified of being rejected. | **Empathy** — software should still feel human. |
-| **Hiro Nikaido · No. 659** | Brilliant, disciplined, and uncompromising toward injustice. | **Rigor** — ideas survive only when the evidence does. |
-| **Sherry Tachibana · No. 667** | A cheerful self-proclaimed detective with endless curiosity and superhuman strength. | **Curiosity** — inspect every clue, including the strange ones. |
-
-## 05 // ESTABLISH CONTACT
+<img src="./assets/theme/final-verdict.svg" width="100%" alt="Verdict: collaboration admissible" />
 
 <div align="center">
   <a href="https://github.com/yorkyang2333"><img src="https://img.shields.io/badge/GitHub-yorkyang2333-0b0b10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -97,7 +92,9 @@ AI investigator, cross-platform builder, and visual-novel enthusiast based in Sh
   <i>The investigation continues. The verdict belongs to the code.</i>
   <br /><br />
   <sub>
-    This is an unofficial, fan-made profile theme. Character artwork and <i>Magical Girl Witch Trials</i> belong to their respective rights holders.<br />
-    Artwork sourced from the <a href="https://manosaba.com/">official website</a>. © 2024 Re,AER LLC. / Acacia.
+    This is an unofficial, fan-made profile theme with no affiliation to the rights holders.<br />
+    <i>Magical Girl Witch Trials</i>, its characters, and game artwork belong to their respective rights holders.<br />
+    Character material references the <a href="https://manosaba.com/">official game website</a>; courtroom imagery comes from <a href="https://www.nintendo.com/jp/topics/article/b09a8af4-3998-46c1-89f3-0caa82dd5743">Nintendo's official feature</a>.<br />
+    © 2024 Re,AER LLC. / Acacia.
   </sub>
 </div>

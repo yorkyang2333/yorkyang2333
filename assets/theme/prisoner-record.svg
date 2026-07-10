@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="400" viewBox="0 0 1120 400" role="img" aria-labelledby="title desc">
+  <title id="title">Prisoner record for York Yang</title>
+  <desc id="desc">A gothic case-file table describing York Yang's location, interests, technical focus and working principle.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4d1729"/><stop offset=".55" stop-color="#1c0c13"/><stop offset="1" stop-color="#17334a"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e66f91"/><stop offset="1" stop-color="#6f9bc0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1118" height="398" rx="12" fill="#08090d" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="12" y="12" width="1096" height="376" rx="8" fill="none" stroke="#e8dce1" stroke-opacity=".18"/>
+  <rect x="24" y="24" width="1072" height="70" rx="6" fill="url(#header)"/>
+  <text x="52" y="56" fill="#ec91aa" font-family="Georgia, serif" font-size="15" letter-spacing="5">CONFIDENTIAL // WITCH-FACTOR SCREENING</text>
+  <text x="52" y="82" fill="#fff8fb" font-family="Georgia, serif" font-size="24" font-weight="700">PRISONER NO. 671 — YORK YANG</text>
+  <text x="1066" y="67" text-anchor="end" fill="#8fb1cc" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">STATUS: UNDER INVESTIGATION</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15">
+    <g transform="translate(24 112)">
+      <rect width="1072" height="48" rx="4" fill="#160c12"/>
+      <text x="28" y="30" fill="#a9919a" font-size="12" letter-spacing="2">DETENTION SITE</text>
+      <text x="232" y="30" fill="#f4edf0">Shanghai, China · operating across mobile, desktop, web, and game runtimes</text>
+    </g>
+    <g transform="translate(24 166)">
+      <rect width="1072" height="72" rx="4" fill="#0c131a"/>
+      <text x="28" y="30" fill="#8fa8ba" font-size="12" letter-spacing="2">SUSPECTED FACTORS</text>
+      <text x="232" y="28" fill="#f4edf0">Artificial intelligence · cross-platform systems · visual-novel engines</text>
+      <text x="232" y="53" fill="#f4edf0">anime video enhancement · creative software experiments</text>
+    </g>
+    <g transform="translate(24 244)">
+      <rect width="1072" height="72" rx="4" fill="#160c12"/>
+      <text x="28" y="30" fill="#a9919a" font-size="12" letter-spacing="2">OBSERVED BEHAVIOR</text>
+      <text x="232" y="28" fill="#f4edf0">Rebuilds old engines, sharpens animated worlds, and turns strange ideas</text>
+      <text x="232" y="53" fill="#f4edf0">into software that can survive contact with real users.</text>
+    </g>
+    <g transform="translate(24 322)">
+      <rect width="1072" height="54" rx="4" fill="#101014" stroke="#7e3046" stroke-opacity=".55"/>
+      <text x="28" y="33" fill="#ec91aa" font-size="12" letter-spacing="2">TRIAL RULE</text>
+      <text x="232" y="34" fill="#fff8fb" font-family="Georgia, serif" font-style="italic">“Every claim must survive the evidence; every interface must still feel human.”</text>
+    </g>
+  </g>
+</svg>
