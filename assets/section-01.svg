@@ -14,14 +14,10 @@
   <rect width="1000" height="52" y="6" rx="8" fill="url(#bar-bg)" stroke="rgba(255, 117, 160, 0.25)" stroke-width="1" />
   <rect x="0" y="6" width="6" height="52" rx="3" fill="#ff75a0" />
 
-  <text x="24" y="38" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="800" fill="#ff75a0">
-    01 //
-  </text>
-  <text x="76" y="37" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="2">
-    CHARACTER PROFILE &amp; ATTRIBUTE MATRIX
-  </text>
-  <text x="440" y="37" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="14" font-weight="600" fill="#00f2fe">
-    「 プロフィール・属性解析 」
+  <text x="24" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15">
+    <tspan font-family="'JetBrains Mono', monospace" font-weight="800" fill="#ff75a0">01 // </tspan>
+    <tspan font-weight="800" fill="#ffffff" letter-spacing="1">CHARACTER PROFILE &amp; ATTRIBUTE MATRIX </tspan>
+    <tspan font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-weight="600" fill="#00f2fe">「 プロフィール・属性解析 」</tspan>
   </text>
 
   <!-- Right Decorative HUD -->

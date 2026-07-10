@@ -109,12 +109,8 @@
     </text>
 
     <!-- Main Bold English Title -->
-    <text x="0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" fill="#ffffff" letter-spacing="1">
-      YORK YANG
-    </text>
-    <!-- Cyber Cyan Shadow/Accent on Title -->
-    <text x="258" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="300" fill="#00f2fe">
-      2333
+    <text x="0" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44">
+      <tspan font-weight="900" fill="#ffffff" letter-spacing="1">YORK YANG </tspan><tspan font-weight="300" fill="#00f2fe">2333</tspan>
     </text>
 
     <!-- Role / Tagline -->
