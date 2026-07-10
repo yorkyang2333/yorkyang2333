@@ -103,11 +103,11 @@ Hiro was quiet for a moment. “It may matter. It is not evidence yet.” She ta
   <img src="./assets/generated/most-commit-language.svg" width="49%" alt="yorkyang2333's most committed languages" />
 </div>
 
-At midnight in Shanghai, the ledger changed by itself.
+At midnight, the ledger changed by itself, just as it did every night in the manor.
 
 New activity appeared. Languages shifted. Another late hour was added to the record.
 
-“The **Profile Stats Synchronization** workflow,” Hiro said. “It refreshes the public evidence every day. No testimony, no flattering interpretation—only a record. This is useful.”
+Hiro studied the new entries. “The record refreshes itself. No testimony, no flattering interpretation—only what was actually done. This is useful.”
 
 “It is a very diligent diary,” Sherry said, smiling at the shifting lines. “A little shy, perhaps. It says everything except the interesting part.”
 
