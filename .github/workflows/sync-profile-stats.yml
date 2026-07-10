@@ -45,6 +45,8 @@ jobs:
           cp profile-summary-card-output/radical/2-most-commit-language.svg assets/generated/most-commit-language.svg
           cp profile-summary-card-output/radical/3-stats.svg assets/generated/stats.svg
           cp profile-summary-card-output/radical/4-productive-time.svg assets/generated/productive-time.svg
+          # Keep the dossier identity aligned with the public GitHub handle.
+          sed -i 's/York Yang/yorkyang2333/g; s/YORK YANG/YORKYANG2333/g' assets/generated/*.svg
 
       - name: Commit refreshed statistics
         run: |

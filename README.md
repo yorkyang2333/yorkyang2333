@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./assets/official/gokucho.png" width="210" alt="Gokucho, the owl warden from Magical Girl Witch Trials" />
   <br />
-  <img src="./assets/theme/trial-title.svg" width="100%" alt="The Witch Trial of York Yang — Prisoner No. 671" />
+  <img src="./assets/theme/trial-title.svg" width="100%" alt="The Witch Trial of yorkyang2333 — Prisoner No. 671" />
   <br />
   <sub>“A witch trial will now commence.”</sub>
 </div>
@@ -21,7 +21,7 @@
 <h2 align="center">01 // DETENTION RECORD</h2>
 <p align="center"><sub>THE PRISON MANOR RECORDS A NEW WITCH CANDIDATE</sub></p>
 
-<img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for York Yang" />
+<img src="./assets/theme/prisoner-record.svg" width="100%" alt="Prisoner record for yorkyang2333" />
 
 In the prison manor, each girl is judged by the magic hidden inside her. In this dossier, every repository is judged the same way: by the evidence it leaves behind. My suspected “witch factors” are **AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software**—all developed under the three testimonies above: Ema's empathy, Hiro's rigor, and Sherry's dangerous curiosity.
 
@@ -51,16 +51,16 @@ Before a verdict can be reached, the manor must be searched. These four reposito
 <p align="center"><sub>THE PRISON MANOR NEVER STOPS OBSERVING</sub></p>
 
 <div align="center">
-  <img src="./assets/generated/profile-details.svg" width="100%" alt="York Yang's GitHub profile activity overview" />
+  <img src="./assets/generated/profile-details.svg" width="100%" alt="yorkyang2333's GitHub profile activity overview" />
   <br />
-  <img src="./assets/generated/stats.svg" width="49%" alt="York Yang's GitHub statistics" />
-  <img src="./assets/generated/productive-time.svg" width="49%" alt="York Yang's most productive coding hours" />
+  <img src="./assets/generated/stats.svg" width="49%" alt="yorkyang2333's GitHub statistics" />
+  <img src="./assets/generated/productive-time.svg" width="49%" alt="yorkyang2333's most productive coding hours" />
   <br />
-  <img src="./assets/generated/repos-per-language.svg" width="49%" alt="York Yang's repositories by language" />
-  <img src="./assets/generated/most-commit-language.svg" width="49%" alt="York Yang's most committed languages" />
+  <img src="./assets/generated/repos-per-language.svg" width="49%" alt="yorkyang2333's repositories by language" />
+  <img src="./assets/generated/most-commit-language.svg" width="49%" alt="yorkyang2333's most committed languages" />
 </div>
 
-These records are regenerated every six hours by the repository's **Profile Stats Synchronization** workflow, using Shanghai time for the productive-hours report. No testimony is accepted without a trace; no public contribution escapes the archive.
+These records are updated in real time by the repository's **Profile Stats Synchronization** workflow.No testimony is accepted without a trace; no public contribution escapes the archive.
 
 <h2 align="center">05 // THE WITCH TRIAL</h2>
 <p align="center"><sub>ALL EVIDENCE HAS BEEN HEARD — THE COURT MAY NOW DELIBERATE</sub></p>

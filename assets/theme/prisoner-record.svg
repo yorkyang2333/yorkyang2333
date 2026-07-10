@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="400" viewBox="0 0 1120 400" role="img" aria-labelledby="title desc">
-  <title id="title">Prisoner record for York Yang</title>
-  <desc id="desc">A gothic case-file table describing York Yang's location, interests, technical focus and working principle.</desc>
+  <title id="title">Prisoner record for yorkyang2333</title>
+  <desc id="desc">A gothic case-file table describing yorkyang2333's location, interests, technical focus and working principle.</desc>
   <defs>
     <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4d1729"/><stop offset=".55" stop-color="#1c0c13"/><stop offset="1" stop-color="#17334a"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e66f91"/><stop offset="1" stop-color="#6f9bc0"/></linearGradient>
@@ -9,7 +9,7 @@
   <rect x="12" y="12" width="1096" height="376" rx="8" fill="none" stroke="#e8dce1" stroke-opacity=".18"/>
   <rect x="24" y="24" width="1072" height="70" rx="6" fill="url(#header)"/>
   <text x="52" y="56" fill="#ec91aa" font-family="Georgia, serif" font-size="15" letter-spacing="5">CONFIDENTIAL // WITCH-FACTOR SCREENING</text>
-  <text x="52" y="82" fill="#fff8fb" font-family="Georgia, serif" font-size="24" font-weight="700">PRISONER NO. 671 — YORK YANG</text>
+  <text x="52" y="82" fill="#fff8fb" font-family="Georgia, serif" font-size="24" font-weight="700">PRISONER NO. 671 — YORKYANG2333</text>
   <text x="1066" y="67" text-anchor="end" fill="#8fb1cc" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">STATUS: UNDER INVESTIGATION</text>
   <g font-family="Arial, Helvetica, sans-serif" font-size="15">
     <g transform="translate(24 112)">
