@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="./assets/official/gokucho.png" width="210" alt="Gokucho" />
-  <br />
   <img src="./assets/theme/trial-title.svg" width="100%" alt="yorkyang2333" />
 </div>
 
