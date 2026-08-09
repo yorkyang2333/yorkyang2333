@@ -35,20 +35,20 @@ jobs:
 
       - name: Select the witch-trial statistics cards
         run: |
-          mkdir -p assets/generated
-          cp profile-summary-card-output/radical/0-profile-details.svg assets/generated/profile-details.svg
-          cp profile-summary-card-output/radical/1-repos-per-language.svg assets/generated/repos-per-language.svg
-          cp profile-summary-card-output/radical/2-most-commit-language.svg assets/generated/most-commit-language.svg
-          cp profile-summary-card-output/radical/3-stats.svg assets/generated/stats.svg
-          cp profile-summary-card-output/radical/4-productive-time.svg assets/generated/productive-time.svg
+          mkdir -p website/assets/generated
+          cp profile-summary-card-output/radical/0-profile-details.svg website/assets/generated/profile-details.svg
+          cp profile-summary-card-output/radical/1-repos-per-language.svg website/assets/generated/repos-per-language.svg
+          cp profile-summary-card-output/radical/2-most-commit-language.svg website/assets/generated/most-commit-language.svg
+          cp profile-summary-card-output/radical/3-stats.svg website/assets/generated/stats.svg
+          cp profile-summary-card-output/radical/4-productive-time.svg website/assets/generated/productive-time.svg
           # Keep the dossier identity aligned with the public GitHub handle.
-          sed -i 's/York Yang/yorkyang2333/g; s/YORK YANG/YORKYANG2333/g' assets/generated/*.svg
+          sed -i 's/York Yang/yorkyang2333/g; s/YORK YANG/YORKYANG2333/g' website/assets/generated/*.svg
 
       - name: Commit refreshed statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/*.svg
+          git add website/assets/generated/*.svg
           git diff --cached --quiet && exit 0
           git commit -m "chore(profile): refresh GitHub statistics"
           git push

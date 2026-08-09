@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="./assets/theme/trial-title.svg" width="100%" alt="yorkyang2333" />
+  <img src="./website/assets/theme/trial-title.svg" width="100%" alt="yorkyang2333" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://manosaba.com/"><img src="./assets/characters/ema-sakuraba.webp" width="32%" alt="Ema Sakuraba" /></a>
-  <a href="https://manosaba.com/"><img src="./assets/characters/hiro-nikaido.webp" width="32%" alt="Hiro Nikaido" /></a>
-  <a href="https://manosaba.com/"><img src="./assets/characters/sherry-tachibana.webp" width="32%" alt="Sherry Tachibana" /></a>
+  <a href="https://manosaba.com/"><img src="./website/assets/characters/ema-sakuraba.webp" width="32%" alt="Ema Sakuraba" /></a>
+  <a href="https://manosaba.com/"><img src="./website/assets/characters/hiro-nikaido.webp" width="32%" alt="Hiro Nikaido" /></a>
+  <a href="https://manosaba.com/"><img src="./website/assets/characters/sherry-tachibana.webp" width="32%" alt="Sherry Tachibana" /></a>
 </div>
 
 <br />
 
-<img src="./assets/theme/witness-testimonies.svg" width="100%" alt="" />
+<img src="./website/assets/theme/witness-testimonies.svg" width="100%" alt="" />
 
 <br />
 
 <h2 align="center">01 // THE PRISON MANOR</h2>
 <p align="center"><sub>A WITCH CANDIDATE'S RECORD, KEPT BY GOKUCHO</sub></p>
 
-<img src="./assets/theme/prisoner-record.svg" width="100%" alt="" />
+<img src="./website/assets/theme/prisoner-record.svg" width="100%" alt="" />
 
 <p align="center">A fan-made developer profile for yorkyang2333, covering AI systems, cross-platform runtimes, visual-novel technology, anime media, and creative software.</p>
 
@@ -28,7 +28,7 @@
 <h2 align="center">02 // THE MAGIC WITHIN</h2>
 <p align="center"><sub>EVERY CANDIDATE HAS A HIDDEN MAGIC; EVERY MAKER HAS A CRAFT</sub></p>
 
-<img src="./assets/theme/witch-factor-tech.svg" width="100%" alt="" />
+<img src="./website/assets/theme/witch-factor-tech.svg" width="100%" alt="" />
 
 <p align="center">Python · Kotlin · JavaScript · TypeScript · Vue · Swift · Rust · C++ · Ren'Py</p>
 
@@ -38,11 +38,11 @@
 <p align="center"><sub>SEARCH THE MANOR · FOLLOW THE THREADS · LEARN WHAT THEY CONNECT</sub></p>
 
 <div align="center">
-  <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./assets/theme/case-001-claudwecho.svg" width="49%" alt="ClaudWecho" /></a>
-  <a href="https://github.com/AetherKiri/AetherKiri"><img src="./assets/theme/case-002-aetherkiri.svg" width="49%" alt="AetherKiri" /></a>
+  <a href="https://github.com/yorkyang2333/ClaudWecho"><img src="./website/assets/theme/case-001-claudwecho.svg" width="49%" alt="ClaudWecho" /></a>
+  <a href="https://github.com/AetherKiri/AetherKiri"><img src="./website/assets/theme/case-002-aetherkiri.svg" width="49%" alt="AetherKiri" /></a>
   <br />
-  <a href="https://github.com/yorkyang2333/iina-anime4k"><img src="./assets/theme/case-003-iina-anime4k.svg" width="49%" alt="iina-anime4k" /></a>
-  <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./assets/theme/case-004-campus-vision.svg" width="49%" alt="Multimodal Campus Vision" /></a>
+  <a href="https://github.com/yorkyang2333/iina-anime4k"><img src="./website/assets/theme/case-003-iina-anime4k.svg" width="49%" alt="iina-anime4k" /></a>
+  <a href="https://github.com/yorkyang2333/illegal-parking-detection-webui"><img src="./website/assets/theme/case-004-campus-vision.svg" width="49%" alt="Multimodal Campus Vision" /></a>
 </div>
 
 <p align="center">Wearable media · visual-novel infrastructure · real-time anime enhancement · multimodal campus vision</p>
@@ -53,13 +53,13 @@
 <p align="center"><sub>THE OWL WARDEN'S LEDGER, REFRESHED AFTER MIDNIGHT</sub></p>
 
 <div align="center">
-  <img src="./assets/generated/profile-details.svg" width="100%" alt="" />
+  <img src="./website/assets/generated/profile-details.svg" width="100%" alt="" />
   <br />
-  <img src="./assets/generated/stats.svg" width="49%" alt="" />
-  <img src="./assets/generated/productive-time.svg" width="49%" alt="" />
+  <img src="./website/assets/generated/stats.svg" width="49%" alt="" />
+  <img src="./website/assets/generated/productive-time.svg" width="49%" alt="" />
   <br />
-  <img src="./assets/generated/repos-per-language.svg" width="49%" alt="" />
-  <img src="./assets/generated/most-commit-language.svg" width="49%" alt="" />
+  <img src="./website/assets/generated/repos-per-language.svg" width="49%" alt="" />
+  <img src="./website/assets/generated/most-commit-language.svg" width="49%" alt="" />
 </div>
 
 <p align="center">Public repository activity, language statistics, commit patterns, and productive hours.</p>
@@ -69,7 +69,7 @@
 <h2 align="center">05 // THE VERDICT</h2>
 <p align="center"><sub>NO WITCH NEEDS TO BE FOUND HERE—ONLY WORK WORTH SHARING</sub></p>
 
-<img src="./assets/theme/final-verdict.svg" width="100%" alt="" />
+<img src="./website/assets/theme/final-verdict.svg" width="100%" alt="" />
 
 <br />
 
