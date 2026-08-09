@@ -33,9 +33,12 @@
     if (element.dataset.i18nAttr) {
       var attributes = element.dataset.i18nAttr.split(",");
       attributes.forEach(function (attribute) {
-        var attributeValue = getValue(content[currentLanguage], key);
+        var normalizedAttribute = attribute.trim();
+        var datasetKey = "i18n" + normalizedAttribute.charAt(0).toUpperCase() + normalizedAttribute.slice(1);
+        var attributeKey = element.dataset[datasetKey] || key;
+        var attributeValue = getValue(content[currentLanguage], attributeKey);
         if (typeof attributeValue === "string") {
-          element.setAttribute(attribute, attributeValue);
+          element.setAttribute(normalizedAttribute, attributeValue);
         }
       });
     }
@@ -168,17 +171,40 @@
     }
 
     var dictionary = content[currentLanguage];
-    grid.innerHTML = window.PROJECTS.map(function (project, index) {
+    var cards = window.PROJECTS.map(function (project, index) {
       var description = getValue(dictionary, project.descriptionKey);
       var tag = getValue(dictionary, project.tagKey);
-      return '<a class="project-card reveal" href="' + project.href + '" target="_blank" rel="noreferrer" style="--delay: ' + (index * 60) + 'ms">' +
-        '<div class="project-card-art"><img src="' + project.image + '" alt="Case ' + project.number + ' — ' + project.title + '"></div>' +
-        '<div class="project-card-meta"><span class="project-number">CASE ' + project.number + '</span><span class="project-tag">' + tag + '</span></div>' +
-        '<h3>' + project.title + '</h3>' +
-        '<p>' + description + '</p>' +
-        '<span class="text-link">' + dictionary.investigation.githubCta + ' <span aria-hidden="true">↗</span></span>' +
-        '</a>';
-    }).join("");
+      var card = document.createElement("a");
+      card.className = "project-card reveal";
+      setExternalHref(card, project.href);
+      card.target = "_blank";
+      card.rel = "noopener noreferrer";
+      setDelay(card, index);
+
+      var art = document.createElement("div");
+      art.className = "project-card-art";
+      var image = document.createElement("img");
+      image.src = project.image;
+      image.alt = "Case " + project.number + ": " + project.title;
+      art.appendChild(image);
+      card.appendChild(art);
+
+      var meta = document.createElement("div");
+      meta.className = "project-card-meta";
+      meta.appendChild(textElement("span", "project-number", "CASE " + project.number));
+      meta.appendChild(textElement("span", "project-tag", tag));
+      card.appendChild(meta);
+      card.appendChild(textElement("h3", "", project.title));
+      card.appendChild(textElement("p", "", description));
+
+      var cta = textElement("span", "text-link", dictionary.investigation.githubCta);
+      var arrow = textElement("span", "", "↗");
+      arrow.setAttribute("aria-hidden", "true");
+      cta.appendChild(arrow);
+      card.appendChild(cta);
+      return card;
+    });
+    replaceChildren(grid, cards);
     setupReveals();
   }
 
@@ -187,10 +213,53 @@
     if (!container || !window.SOCIAL_LINKS) {
       return;
     }
-    container.innerHTML = window.SOCIAL_LINKS.map(function (link) {
-      return '<a class="social-link" href="' + link.href + '" target="_blank" rel="noreferrer">' +
-        '<span>' + link.label + '</span><span aria-hidden="true">↗</span></a>';
-    }).join("");
+    var links = window.SOCIAL_LINKS.map(function (link) {
+      var anchor = document.createElement("a");
+      anchor.className = "social-link";
+      setExternalHref(anchor, link.href);
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.appendChild(textElement("span", "", link.label));
+      var arrow = textElement("span", "", "↗");
+      arrow.setAttribute("aria-hidden", "true");
+      anchor.appendChild(arrow);
+      return anchor;
+    });
+    replaceChildren(container, links);
+  }
+
+  function textElement(tagName, className, value) {
+    var element = document.createElement(tagName);
+    if (className) {
+      element.className = className;
+    }
+    element.textContent = value == null ? "" : String(value);
+    return element;
+  }
+
+  function replaceChildren(container, children) {
+    container.textContent = "";
+    children.forEach(function (child) {
+      container.appendChild(child);
+    });
+  }
+
+  function setDelay(element, index) {
+    element.style.setProperty("--delay", (index * 60) + "ms");
+  }
+
+  function setExternalHref(element, value) {
+    if (typeof value !== "string" || !value) {
+      return;
+    }
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.protocol === "https:") {
+        element.href = url.href;
+      }
+    } catch (error) {
+      // Keep malformed external data inert instead of creating an unsafe link.
+    }
   }
 
   function formatNumber(value) {
@@ -279,9 +348,13 @@
       [dictionary.ledger.kpiStars, stars],
       [dictionary.ledger.kpiForks, forks]
     ];
-    container.innerHTML = items.map(function (item) {
-      return '<div class="kpi"><span class="kpi-label">' + item[0] + '</span><strong>' + formatNumber(item[1]) + '</strong></div>';
-    }).join("");
+    replaceChildren(container, items.map(function (item) {
+      var kpi = document.createElement("div");
+      kpi.className = "kpi";
+      kpi.appendChild(textElement("span", "kpi-label", item[0]));
+      kpi.appendChild(textElement("strong", "", formatNumber(item[1])));
+      return kpi;
+    }));
   }
 
   function renderRepos(data) {
@@ -292,18 +365,37 @@
     var dictionary = content[currentLanguage];
     var repos = (data.repos || []).filter(function (repo) { return !repo.fork; }).slice(0, 6);
     if (!repos.length) {
-      list.innerHTML = '<p class="empty-state">' + dictionary.shared.noActivity + '</p>';
+      replaceChildren(list, [textElement("p", "empty-state", dictionary.shared.noActivity)]);
       return;
     }
-    list.innerHTML = repos.map(function (repo, index) {
-      return '<a class="repo-row reveal" href="' + repo.html_url + '" target="_blank" rel="noreferrer" style="--delay: ' + (index * 60) + 'ms">' +
-        '<span class="repo-index">0' + (index + 1) + '</span>' +
-        '<span class="repo-main"><strong>' + escapeHtml(repo.name) + '</strong><span>' + escapeHtml(repo.description || "") + '</span></span>' +
-        '<span class="repo-language"><i style="--language-color: ' + languageColor(repo.language) + '"></i>' + escapeHtml(repo.language || "Unknown") + '</span>' +
-        '<span class="repo-date">' + dictionary.shared.updated + ' ' + formatDate(repo.updated_at) + '</span>' +
-        '<span class="repo-arrow" aria-hidden="true">↗</span>' +
-        '</a>';
-    }).join("");
+    replaceChildren(list, repos.map(function (repo, index) {
+      var row = document.createElement("a");
+      row.className = "repo-row reveal";
+      setExternalHref(row, repo.html_url);
+      row.target = "_blank";
+      row.rel = "noopener noreferrer";
+      setDelay(row, index);
+      row.appendChild(textElement("span", "repo-index", "0" + (index + 1)));
+
+      var main = document.createElement("span");
+      main.className = "repo-main";
+      main.appendChild(textElement("strong", "", repo.name));
+      main.appendChild(textElement("span", "", repo.description || ""));
+      row.appendChild(main);
+
+      var language = document.createElement("span");
+      language.className = "repo-language";
+      var languageDot = document.createElement("i");
+      languageDot.style.setProperty("--language-color", languageColor(repo.language));
+      language.appendChild(languageDot);
+      language.appendChild(document.createTextNode(repo.language || "Unknown"));
+      row.appendChild(language);
+      row.appendChild(textElement("span", "repo-date", dictionary.shared.updated + " " + formatDate(repo.updated_at)));
+      var arrow = textElement("span", "repo-arrow", "↗");
+      arrow.setAttribute("aria-hidden", "true");
+      row.appendChild(arrow);
+      return row;
+    }));
     setupReveals();
   }
 
@@ -326,25 +418,50 @@
       return ["PushEvent", "CreateEvent", "IssuesEvent", "PullRequestEvent", "WatchEvent", "ForkEvent", "ReleaseEvent"].indexOf(event.type) !== -1;
     }).slice(0, 8);
     if (!events.length) {
-      list.innerHTML = '<p class="empty-state">' + dictionary.shared.noActivity + '</p>';
+      replaceChildren(list, [textElement("p", "empty-state", dictionary.shared.noActivity)]);
       return;
     }
-    list.innerHTML = events.map(function (event, index) {
+    replaceChildren(list, events.map(function (event, index) {
       var action = eventMap[event.type] || dictionary.ledger.eventDefault;
-      return '<li class="activity-item reveal" style="--delay: ' + (index * 60) + 'ms"><span class="activity-dot"></span><span class="activity-copy"><strong>' + action + '</strong> <a href="' + event.repo.url.replace("api.github.com/repos", "github.com") + '" target="_blank" rel="noreferrer">' + escapeHtml(event.repo.name) + '</a></span><time datetime="' + event.created_at + '">' + formatDate(event.created_at) + '</time></li>';
-    }).join("");
+      var item = document.createElement("li");
+      item.className = "activity-item reveal";
+      setDelay(item, index);
+      item.appendChild(textElement("span", "activity-dot", ""));
+
+      var copy = document.createElement("span");
+      copy.className = "activity-copy";
+      copy.appendChild(textElement("strong", "", action));
+      copy.appendChild(document.createTextNode(" "));
+      var repository = document.createElement("a");
+      setGithubRepositoryHref(repository, event.repo && event.repo.url);
+      repository.target = "_blank";
+      repository.rel = "noopener noreferrer";
+      repository.textContent = event.repo && event.repo.name ? event.repo.name : "GitHub";
+      copy.appendChild(repository);
+      item.appendChild(copy);
+
+      var time = textElement("time", "", formatDate(event.created_at));
+      time.dateTime = event.created_at || "";
+      item.appendChild(time);
+      return item;
+    }));
     setupReveals();
+  }
+
+  function setGithubRepositoryHref(element, value) {
+    try {
+      var url = new URL(value);
+      if (url.protocol === "https:" && url.hostname === "api.github.com" && url.pathname.indexOf("/repos/") === 0) {
+        element.href = "https://github.com" + url.pathname.slice("/repos".length);
+      }
+    } catch (error) {
+      // Keep malformed event data inert instead of creating an unsafe link.
+    }
   }
 
   function languageColor(language) {
     var colors = { Kotlin: "#a97bff", "C++": "#f34b7d", HTML: "#e34c26", Vue: "#41b883", JavaScript: "#f1e05a", TypeScript: "#3178c6", Python: "#3572a5", Rust: "#dea584" };
     return colors[language] || "#a9fef7";
-  }
-
-  function escapeHtml(value) {
-    return String(value).replace(/[&<>"']/g, function (character) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[character];
-    });
   }
 
   function setGithubStatus(kind) {

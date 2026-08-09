@@ -43,6 +43,7 @@ window.PROFILE_CONTENT = {
     home: {
       eyebrow: "THE WITCH TRIAL OF",
       title: "yorkyang2333",
+      titleAlt: "The Witch Trial of yorkyang2333",
       intro: "A developer dossier for AI systems, creative software, visual-novel technology, anime media, and unusual cross-platform projects.",
       primaryCta: "Open the dossier",
       secondaryCta: "Browse investigations",
@@ -249,6 +250,7 @@ window.PROFILE_CONTENT = {
     home: {
       eyebrow: "关于 YORKYANG2333 的",
       title: "魔女审判",
+      titleAlt: "yorkyang2333 的魔女审判档案",
       intro: "一份关于 AI 系统、创意软件、视觉小说技术、动画媒体和跨平台实验项目的开发者档案。",
       primaryCta: "打开个人档案",
       secondaryCta: "浏览项目调查",
