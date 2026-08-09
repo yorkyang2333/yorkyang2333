@@ -171,7 +171,7 @@
     grid.innerHTML = window.PROJECTS.map(function (project, index) {
       var description = getValue(dictionary, project.descriptionKey);
       var tag = getValue(dictionary, project.tagKey);
-      return '<a class="project-card reveal" href="' + project.href + '" target="_blank" rel="noreferrer" style="--delay: ' + (index * 80) + 'ms">' +
+      return '<a class="project-card reveal" href="' + project.href + '" target="_blank" rel="noreferrer" style="--delay: ' + (index * 60) + 'ms">' +
         '<div class="project-card-art"><img src="' + project.image + '" alt="Case ' + project.number + ' — ' + project.title + '"></div>' +
         '<div class="project-card-meta"><span class="project-number">CASE ' + project.number + '</span><span class="project-tag">' + tag + '</span></div>' +
         '<h3>' + project.title + '</h3>' +
@@ -318,11 +318,13 @@
       CreateEvent: dictionary.ledger.eventCreate,
       IssuesEvent: dictionary.ledger.eventIssues,
       PullRequestEvent: dictionary.ledger.eventPullRequest,
-      WatchEvent: dictionary.ledger.eventWatch
+      WatchEvent: dictionary.ledger.eventWatch,
+      ForkEvent: dictionary.ledger.eventFork,
+      ReleaseEvent: dictionary.ledger.eventRelease
     };
     var events = (data.events || []).filter(function (event) {
-      return ["PushEvent", "CreateEvent", "IssuesEvent", "PullRequestEvent", "WatchEvent"].indexOf(event.type) !== -1;
-    }).slice(0, 5);
+      return ["PushEvent", "CreateEvent", "IssuesEvent", "PullRequestEvent", "WatchEvent", "ForkEvent", "ReleaseEvent"].indexOf(event.type) !== -1;
+    }).slice(0, 8);
     if (!events.length) {
       list.innerHTML = '<p class="empty-state">' + dictionary.shared.noActivity + '</p>';
       return;
@@ -381,6 +383,10 @@
         loading.hidden = true;
       }
       setGithubStatus("snapshot");
+      var fallbackSection = document.getElementById("fallback-section");
+      if (fallbackSection) {
+        fallbackSection.hidden = false;
+      }
       var fallback = document.getElementById("static-fallback");
       if (fallback) {
         fallback.hidden = false;
